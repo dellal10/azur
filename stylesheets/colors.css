@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.bg-dark-gray {
+  background-color: #393e46;
+}
+
+.bg-dark-gray {
+  background-color: #393e46;
+}
+
+.bg-dark-blue {
+  background-color: #0d2d3e;
+}
+
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+
+.bg-white {
+  background-color: #f8f8f8;
+}
+
+.bg-light-blue {
+  background-color: #badfdb;
+}
+
+.bg-light-orange {
+  background-color: #f8b195;
+}
+
+.bg-light-yellow {
+  background-color: #fcf9ea;
+}
+
+.red {
+  color: #ee4540
+}
+
+.card > img {
+  height: auto;
+  width: 80%;
+}
+
+.jumbotron {
+  padding: 2%;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.jumbotron img {
+  width: 40%;
+}
+
+.contact td {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.fixed-col {
+  overflow-y: hidden;
+  top: 120px;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  display: none;
+  transition-delay: 1s fade;
+  padding: 0;
+  margin: 0;
+}
+
+.anchor {
+    padding-top: 92px;
+    margin-top: -92px;
+    vertical-align: top;
+}
